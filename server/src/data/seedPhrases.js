@@ -1,0 +1,17 @@
+export const seedPhrases = [
+  { scenario: 'transport', kannada: 'ಬಸ್ ನಿಲ್ದಾಣ ಎಲ್ಲಿದೆ?', transliteration: 'Bus nildāṇa ellide?', english: 'Where is the bus station?', context: 'Asking directions', difficulty: 'essential' },
+  { scenario: 'transport', kannada: 'ಈ ಬಸ್ ಮೆಜೆಸ್ಟಿಕ್‌ಗೆ ಹೋಗುತ್ತದೆಯೇ?', transliteration: 'Ī bas Majestic-ge hōguttadeyē?', english: 'Does this bus go to Majestic?', context: 'On the bus', difficulty: 'useful' },
+  { scenario: 'transport', kannada: 'ದಯವಿಟ್ಟು ಇಲ್ಲಿ ನಿಲ್ಲಿಸಿ.', transliteration: 'Dayaviṭṭu illi nillisi.', english: 'Please stop here.', context: 'On the road', difficulty: 'essential' },
+  { scenario: 'shopping', kannada: 'ಇದು ಎಷ್ಟು?', transliteration: 'Idu eṣṭu?', english: 'How much is this?', context: 'Asking a price', difficulty: 'essential' },
+  { scenario: 'shopping', kannada: 'ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ.', transliteration: 'Svalpa kaḍime māḍi.', english: 'Please reduce it a little.', context: 'At the market', difficulty: 'useful' },
+  { scenario: 'shopping', kannada: 'ನನಗೆ ಇದು ಬೇಕು.', transliteration: 'Nanage idu bēku.', english: 'I would like this.', context: 'Making a choice', difficulty: 'essential' },
+  { scenario: 'healthcare', kannada: 'ನನಗೆ ವೈದ್ಯರ ಸಹಾಯ ಬೇಕು.', transliteration: 'Nanage vaidyara sahāya bēku.', english: 'I need a doctor’s help.', context: 'Asking for help', difficulty: 'essential' },
+  { scenario: 'healthcare', kannada: 'ನನಗೆ ಇಲ್ಲಿ ನೋವು ಇದೆ.', transliteration: 'Nanage illi nōvu ide.', english: 'I have pain here.', context: 'Describing a symptom', difficulty: 'essential' },
+  { scenario: 'healthcare', kannada: 'ಔಷಧಿಯನ್ನು ಹೇಗೆ ತೆಗೆದುಕೊಳ್ಳಬೇಕು?', transliteration: 'Auṣadhiyannu hēge tegedukoḷḷabēku?', english: 'How should I take the medicine?', context: 'At the pharmacy', difficulty: 'useful' },
+  { scenario: 'education', kannada: 'ತರಗತಿ ಎಲ್ಲಿದೆ?', transliteration: 'Taragati ellide?', english: 'Where is the classroom?', context: 'Asking directions', difficulty: 'essential' },
+  { scenario: 'education', kannada: 'ದಯವಿಟ್ಟು ನಿಧಾನವಾಗಿ ಮಾತನಾಡಿ.', transliteration: 'Dayaviṭṭu nidhānavāgi mātanāḍi.', english: 'Please speak slowly.', context: 'In conversation', difficulty: 'essential' },
+  { scenario: 'education', kannada: 'ನನಗೆ ಅರ್ಥವಾಯಿತು.', transliteration: 'Nanage arthavāyitu.', english: 'I understand.', context: 'In class', difficulty: 'useful' },
+  { scenario: 'workplace', kannada: 'ನಮಸ್ಕಾರ, ನಿಮ್ಮನ್ನು ಭೇಟಿಯಾಗಿ ಸಂತೋಷವಾಯಿತು.', transliteration: 'Namaskāra, nimmannu bhēṭiyāgi santōṣavāyitu.', english: 'Hello, it’s nice to meet you.', context: 'Introductions', difficulty: 'useful' },
+  { scenario: 'workplace', kannada: 'ನಾನು ಹೊಸದಾಗಿ ಸೇರಿದ್ದೇನೆ.', transliteration: 'Nānu hosadāgi sēriddēne.', english: 'I have recently joined.', context: 'At the office', difficulty: 'useful' },
+  { scenario: 'workplace', kannada: 'ನಾವು ಯಾವಾಗ ಸಭೆ ಮಾಡೋಣ?', transliteration: 'Nāvu yāvāga sabhe māḍōṇa?', english: 'When shall we have the meeting?', context: 'Making plans', difficulty: 'useful' },
+]

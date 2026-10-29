@@ -1,0 +1,81 @@
+export const scenarios = [
+  {
+    id: 'transport',
+    name: 'Transportation',
+    shortName: 'Transport',
+    description: 'Find your way, catch a bus, and get where you need to go.',
+    icon: 'train-front',
+    color: 'peach',
+    prompt: 'You are at a bus stop and want to ask for directions.',
+    suggestions: ['ಬಸ್ ನಿಲ್ದಾಣ ಎಲ್ಲಿದೆ?', 'ಈ ಬಸ್ ಮೆಜೆಸ್ಟಿಕ್‌ಗೆ ಹೋಗುತ್ತದೆಯೇ?', 'ಧನ್ಯವಾದಗಳು'],
+    phrases: [
+      { id: 'transport-1', kannada: 'ಬಸ್ ನಿಲ್ದಾಣ ಎಲ್ಲಿದೆ?', transliteration: 'Bus nildāṇa ellide?', english: 'Where is the bus station?', type: 'Asking directions', level: 'Essential' },
+      { id: 'transport-2', kannada: 'ಈ ಬಸ್ ಮೆಜೆಸ್ಟಿಕ್‌ಗೆ ಹೋಗುತ್ತದೆಯೇ?', transliteration: 'Ī bas Majestic-ge hōguttadeyē?', english: 'Does this bus go to Majestic?', type: 'On the bus', level: 'Useful' },
+      { id: 'transport-3', kannada: 'ದಯವಿಟ್ಟು ಇಲ್ಲಿ ನಿಲ್ಲಿಸಿ.', transliteration: 'Dayaviṭṭu illi nillisi.', english: 'Please stop here.', type: 'On the road', level: 'Essential' },
+    ],
+  },
+  {
+    id: 'shopping',
+    name: 'Shopping',
+    shortName: 'Shopping',
+    description: 'Browse local shops and ask about the things you love.',
+    icon: 'shopping-bag',
+    color: 'sage',
+    prompt: 'You are shopping at a neighborhood market.',
+    suggestions: ['ಇದು ಎಷ್ಟು?', 'ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ.', 'ನನಗೆ ಇದು ಬೇಕು.'],
+    phrases: [
+      { id: 'shopping-1', kannada: 'ಇದು ಎಷ್ಟು?', transliteration: 'Idu eṣṭu?', english: 'How much is this?', type: 'Asking a price', level: 'Essential' },
+      { id: 'shopping-2', kannada: 'ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ.', transliteration: 'Svalpa kaḍime māḍi.', english: 'Please reduce it a little.', type: 'At the market', level: 'Useful' },
+      { id: 'shopping-3', kannada: 'ನನಗೆ ಇದು ಬೇಕು.', transliteration: 'Nanage idu bēku.', english: 'I would like this.', type: 'Making a choice', level: 'Essential' },
+    ],
+  },
+  {
+    id: 'healthcare',
+    name: 'Healthcare',
+    shortName: 'Healthcare',
+    description: 'Share what you need and understand simple questions.',
+    icon: 'heart-pulse',
+    color: 'rose',
+    prompt: 'You are at a clinic and need to explain that you need help.',
+    suggestions: ['ನನಗೆ ವೈದ್ಯರ ಸಹಾಯ ಬೇಕು.', 'ನನಗೆ ಇಲ್ಲಿ ನೋವು ಇದೆ.', 'ಧನ್ಯವಾದಗಳು'],
+    phrases: [
+      { id: 'healthcare-1', kannada: 'ನನಗೆ ವೈದ್ಯರ ಸಹಾಯ ಬೇಕು.', transliteration: 'Nanage vaidyara sahāya bēku.', english: 'I need a doctor’s help.', type: 'Asking for help', level: 'Essential' },
+      { id: 'healthcare-2', kannada: 'ನನಗೆ ಇಲ್ಲಿ ನೋವು ಇದೆ.', transliteration: 'Nanage illi nōvu ide.', english: 'I have pain here.', type: 'Describing a symptom', level: 'Essential' },
+      { id: 'healthcare-3', kannada: 'ಔಷಧಿಯನ್ನು ಹೇಗೆ ತೆಗೆದುಕೊಳ್ಳಬೇಕು?', transliteration: 'Auṣadhiyannu hēge tegedukoḷḷabēku?', english: 'How should I take the medicine?', type: 'At the pharmacy', level: 'Useful' },
+    ],
+  },
+  {
+    id: 'education',
+    name: 'Education',
+    shortName: 'Education',
+    description: 'Feel at home in class, on campus, and around school.',
+    icon: 'book-open',
+    color: 'lilac',
+    prompt: 'You are on campus and looking for your classroom.',
+    suggestions: ['ತರಗತಿ ಎಲ್ಲಿದೆ?', 'ದಯವಿಟ್ಟು ನಿಧಾನವಾಗಿ ಮಾತನಾಡಿ.', 'ನನಗೆ ಅರ್ಥವಾಯಿತು.'],
+    phrases: [
+      { id: 'education-1', kannada: 'ತರಗತಿ ಎಲ್ಲಿದೆ?', transliteration: 'Taragati ellide?', english: 'Where is the classroom?', type: 'Asking directions', level: 'Essential' },
+      { id: 'education-2', kannada: 'ದಯವಿಟ್ಟು ನಿಧಾನವಾಗಿ ಮಾತನಾಡಿ.', transliteration: 'Dayaviṭṭu nidhānavāgi mātanāḍi.', english: 'Please speak slowly.', type: 'In conversation', level: 'Essential' },
+      { id: 'education-3', kannada: 'ನನಗೆ ಅರ್ಥವಾಯಿತು.', transliteration: 'Nanage arthavāyitu.', english: 'I understand.', type: 'In class', level: 'Useful' },
+    ],
+  },
+  {
+    id: 'workplace',
+    name: 'Workplace',
+    shortName: 'Workplace',
+    description: 'Make introductions and small moments at work easier.',
+    icon: 'briefcase-business',
+    color: 'blue',
+    prompt: 'You are meeting a colleague at the office for the first time.',
+    suggestions: ['ನಮಸ್ಕಾರ, ನಿಮ್ಮನ್ನು ಭೇಟಿಯಾಗಿ ಸಂತೋಷವಾಯಿತು.', 'ನಾನು ಹೊಸದಾಗಿ ಸೇರಿದ್ದೇನೆ.', 'ಧನ್ಯವಾದಗಳು'],
+    phrases: [
+      { id: 'workplace-1', kannada: 'ನಮಸ್ಕಾರ, ನಿಮ್ಮನ್ನು ಭೇಟಿಯಾಗಿ ಸಂತೋಷವಾಯಿತು.', transliteration: 'Namaskāra, nimmannu bhēṭiyāgi santōṣavāyitu.', english: 'Hello, it’s nice to meet you.', type: 'Introductions', level: 'Useful' },
+      { id: 'workplace-2', kannada: 'ನಾನು ಹೊಸದಾಗಿ ಸೇರಿದ್ದೇನೆ.', transliteration: 'Nānu hosadāgi sēriddēne.', english: 'I have recently joined.', type: 'At the office', level: 'Useful' },
+      { id: 'workplace-3', kannada: 'ನಾವು ಯಾವಾಗ ಸಭೆ ಮಾಡೋಣ?', transliteration: 'Nāvu yāvāga sabhe māḍōṇa?', english: 'When shall we have the meeting?', type: 'Making plans', level: 'Useful' },
+    ],
+  },
+]
+
+export const allPhrases = scenarios.flatMap((scenario) =>
+  scenario.phrases.map((phrase) => ({ ...phrase, scenarioId: scenario.id, scenarioName: scenario.name })),
+)
